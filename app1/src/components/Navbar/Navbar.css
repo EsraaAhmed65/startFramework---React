@@ -1,0 +1,55 @@
+.font {
+  font-size: 30px;
+  font-weight: bolder;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.navbar-toggler {
+  background-color: white;
+}
+
+.bg {
+  background-color: #2C3E50;
+}
+
+.link-design {
+  background-color: #1ABC9C;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.navbar {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.navbar .nav-link {
+  font-size: 18px;
+}
+
+.nav-link {
+  color: white !important;
+  font-weight: bold;
+  padding: 6px 12px;
+  border-radius: 8px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  display: inline-block;
+}
+
+.nav-link.active-link {
+  background-color: #1abc9c;
+  color: white !important;
+}
+
+
+
+.navbar .navbar-brand {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.navbar.shrink {
+  padding: 10px 0 !important;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
